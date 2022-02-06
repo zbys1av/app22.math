@@ -1,3 +1,7 @@
+html{
+  background-color: rgb(59, 59, 59);
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#answerBtn{
+  visibility: hidden;
+}
+
+#nextBtn{
+  visibility: hidden;
+}
+
+#myAnswer{
+  visibility: hidden;
 }
 
 @keyframes App-logo-spin {
